@@ -1,8 +1,12 @@
+import { NativeStackScreenProps } from "@react-navigation/native-stack";
 import { View, Text } from "react-native";
 
+import { StackParamList } from "../Types";
 import AppBar from "../components/AppBar";
 
-const SignIn = () => {
+type SignInScreenProps = NativeStackScreenProps<StackParamList, "SignIn">;
+
+const SignIn = ({ navigation, route }: SignInScreenProps) => {
   return (
     <View>
       <AppBar title="Sign In" />
