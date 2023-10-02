@@ -4,7 +4,6 @@ type AppBarProps = {
   title: string;
 };
 
-
 const AppBar = ({ title }: AppBarProps) => (
   <Appbar.Header>
     {/* <Appbar.BackAction onPress={() => {}} /> */}
