@@ -1,5 +1,6 @@
 module.exports = {
   root: true,
+  plugins: ["react", "react-native"],
   extends: ["universe/native"],
   rules: {
     semi: ["error", "always"],
