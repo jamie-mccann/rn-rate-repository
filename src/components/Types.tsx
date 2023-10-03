@@ -9,3 +9,8 @@ export type Repository = {
   reviewCount: number;
   ownerAvatarUrl: string;
 };
+
+export type MenuItemType = {
+  onPress: () => void;
+  title: string;
+};
