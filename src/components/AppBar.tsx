@@ -9,7 +9,7 @@ type AppBarProps = {
 };
 
 const AppBar = ({ title, menuItems }: AppBarProps) => (
-  <Appbar.Header>
+  <Appbar.Header mode="center-aligned">
     {/* <Appbar.BackAction onPress={() => {}} /> */}
     <Appbar.Content title={title} titleStyle={{ textAlign: "center" }} />
     <Menu menuItems={menuItems} />
